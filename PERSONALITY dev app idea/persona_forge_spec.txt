@@ -1,0 +1,99 @@
+Project Spec: PersonaForge (Codename: Forge)
+
+Overview
+Forge is a mobile app where users are guided by fictional characters who deliver hard-hitting, five-minute
+daily challenges in four life areas: physical, mental, social, and productive. Each user selects from predefined
+coaches like Tyler Durden or Batman, who challenge the user in their unique voice and philosophy. This app
+isn't about 'tracking habits'-it's about building personality through daily micro-tests of courage, strength, and
+focus.
+
+Target Audience
+Age Range: Gen Z and Millennials (10-40 years)
+Psychographics:
+- Fans of edgy content, self-improvement, and fictional archetypes
+- People bored by traditional 'to-do' apps
+- Those seeking motivation, self-discipline, or identity-building
+
+Core Loop
+1. Select a Persona
+2. Get a Daily Challenge (non-optional)
+3. 5-Minute Timer
+4. Submit Proof (photo, text, or audio)
+5. Earn XP + Gems
+6. Level Up Persona -> Harder Tasks -> Unlock Skins
+
+Personas (V1)
+- Tyler Durden (Rude, radical): Physical, Social
+- Batman (Stoic, wise): Mental, Physical
+- Patrick Bateman (Perfectionist): Productive, Physical
+- Dexter Morgan (Calm, clinical): Mental, Productive
+Each persona has 3-5 skins, unique tone, progressive task difficulty, and unlockable content.
+
+Project Spec: PersonaForge (Codename: Forge)
+
+Task Types
+Categories: Physical, Mental, Social, Productive
+Examples by Persona:
+Tyler - 'Do 15 burpees. No mercy.'
+Batman - 'Plan your next 5 moves. Write them down.'
+
+Key Features (V1)
+- Predefined Persona Selection
+- Daily Prompt (from local JSON)
+- XP + Gems tracking
+- Task submission (photo/text/audio)
+- Streak tracker + level-up logic
+- Local file storage
+- Offline use only
+
+Tech Stack (Laptop MVP)
+- Electron + React
+- localStorage / IndexedDB
+- TailwindCSS (optional)
+- prompts.json file for challenge data
+- React alerts for simulated notifications
+
+Data Structures
+user.json: Stores selected persona, XP, streak, completed dates, and level per persona
+prompts.json: Local JSON file storing prompts for each persona by level
+
+Screens
+- Home Screen: Persona head, XP bar, streak, start button
+
+Project Spec: PersonaForge (Codename: Forge)
+- Challenge Screen: Task, timer, upload file
+- Result Screen: Feedback and rewards
+- History Screen: Proof history list
+
+Progression Logic
+- Streak increases if a task is done daily
+- XP rewards increase with difficulty
+- Persona Level-Up unlocks skins and new tasks
+
+Future Expansion (Cloud)
+- React Native mobile app
+- Firebase Auth + Firestore
+- Expo Push Notifications
+- Firebase Storage for uploads
+- RevenueCat/Stripe for subscriptions
+
+Monetization Plan
+- Freemium with optional subscription (~4.99/month)
+- Bonus content for subscribers: rare personas, fast XP, extra missions
+
+Roadmap
+V1 - Local MVP (Electron, React)
+V2 - Cloud sync, React Native mobile app
+V3 - Store launch, monetization added
+
+Next Steps
+1. Build local MVP
+2. Create prompt pool
+
+Project Spec: PersonaForge (Codename: Forge)
+3. Implement XP/streak logic
+4. Add file uploads
+5. Animate feedback
+6. Write persona-specific voice lines
+
+

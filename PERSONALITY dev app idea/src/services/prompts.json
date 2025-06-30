@@ -1,0 +1,53 @@
+{
+  "personas": {
+    "tyler_durden": [
+      {
+        "level": 1,
+        "category": "physical",
+        "task": "Do 15 burpees. No mercy."
+      },
+      {
+        "level": 1,
+        "category": "social",
+        "task": "Start a conversation with a stranger. Report back."
+      }
+    ],
+    "batman": [
+      {
+        "level": 1,
+        "category": "mental",
+        "task": "Plan your next 5 moves. Write them down."
+      },
+      {
+        "level": 1,
+        "category": "physical",
+        "task": "Hold a plank for 2 minutes. Stay vigilant."
+      }
+    ],
+    "patrick_bateman": [
+      {
+        "level": 1,
+        "category": "productive",
+        "task": "Optimize your morning routine for maximum efficiency."
+      },
+      {
+        "level": 1,
+        "category": "physical",
+        "task": "Complete 100 push-ups. Maintain perfect form."
+      }
+    ],
+    "dexter_morgan": [
+      {
+        "level": 1,
+        "category": "mental",
+        "task": "Analyze a complex problem and outline a step-by-step solution."
+      },
+      {
+        "level": 1,
+        "category": "productive",
+        "task": "Organize your digital files. Eliminate all unnecessary clutter."
+      }
+    ]
+  }
+}
+
